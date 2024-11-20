@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+.left-section h2 {
+    margin-top: 0;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-section h2 {
+    margin-top: 0;
+}
+
+#notepad {
+    width: 100%;
+    height: calc(100% - 80px);
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#saveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
